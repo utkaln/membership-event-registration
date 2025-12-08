@@ -82,6 +82,9 @@ out
 .nuxt
 dist
 
+# Turborepo cache
+.turbo
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -137,3 +140,17 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Credentials and sensitive data
+*CREDENTIALS*
+*.credentials.*
+*credentials*
+*admin-token*
+*ADMIN_TOKEN*
+
+# Test scripts with embedded tokens
+test-auth.mjs
+test-admin-token.mjs
+create-admin.sh
+quick-test.sh
+get-token.sh
