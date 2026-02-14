@@ -85,6 +85,12 @@ dist
 # Turborepo cache
 .turbo
 
+# Playwright test artifacts
+playwright-report/
+test-results/
+playwright/.auth/
+playwright/.cache/
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
